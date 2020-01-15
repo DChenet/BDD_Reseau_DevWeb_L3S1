@@ -8,7 +8,7 @@ define("PERSO","host=127.0.0.1 dbname=projetdb user=mechanizen port=5432 passwor
  * Crée une connection avec la base de données
  */
 function connect_to_db(){
-    $dbconn = pg_connect(UNI) or die('Connexion impossible : ' . pg_last_error());
+    $dbconn = pg_connect(PERSO) or die('Connexion impossible : ' . pg_last_error());
 return $dbconn;
 }
 
