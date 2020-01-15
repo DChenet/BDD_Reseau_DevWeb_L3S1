@@ -1,0 +1,183 @@
+header{
+    border-bottom: 2px solid black;
+    background-color: blue;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(57, 197, 226);
+}
+
+header li {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+header li a {
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+div.create_frame {
+    background-color:rgba(200, 200, 160);
+    margin-top:5%;
+    margin-left:30%;
+    margin-bottom:auto;
+    margin-right:30%;
+}
+
+div.connect_frame {
+    background-color:rgba(200, 200, 160);
+    margin-top:5%;
+    margin-left:35%;
+    margin-bottom:auto;
+    margin-right:35%;
+}
+
+div.trajet_frame {
+    background-color: #f1f1f1;
+    margin-top:5%;
+    margin-left:20%;
+    margin-bottom:auto;
+    margin-right:20%;
+}
+
+body p,h1,h2,a,label{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tab button:hover {
+  color:rgb(33, 157, 182);
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.button {
+    background-color: rgb(17, 136, 160);
+    border: none;
+    color: white;
+    padding: 10px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin-bottom:3px;
+  }
+
+  div.trajet_frame  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  div.trajet_frame td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  div.trajet_frame tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .custom-select {
+    position: relative;
+    font-family: Arial;
+  }
+  
+  .custom-select select {
+    display: none; /*hide original SELECT element:*/
+  }
+  
+  .select-selected {
+    background-color: DodgerBlue;
+  }
+  
+  /*style the arrow inside the select element:*/
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+  
+  /*point the arrow upwards when the select box is open (active):*/
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+  }
+  
+  /*style the items (options), including the selected item:*/
+  .select-items div,.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  /*style items (options):*/
+  .select-items {
+    position: absolute;
+    background-color: DodgerBlue;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  
+  /*hide the items when the select box is closed:*/
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .reservation {
+    border-left: black;
+    border-right: black;
+    border-bottom: black;
+    border-top: black;
+    background-color: blanchedalmond;
+    margin-top: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
